@@ -2,4 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 6rem;
+    font-weight: 200;
+}
+
+.linkIcons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;    
+}
+
+.linkIcons_icon {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .2s ease-in-out; 
+}
+
+.linkIcons_icon:hover {
+    opacity: 1;
+    transform: scale(1.05); 
 }
